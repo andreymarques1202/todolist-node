@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path")
 const checklistsRouter = require("./src/routes/Checklist")
-const rootRouter = require("./src/routes/index");
+const rootRouter = require("./src/routes/Index");
 require("./config/Database");
 
 const app = express();

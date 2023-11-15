@@ -6,6 +6,7 @@ require("./config/Database");
 
 const app = express();
 app.use(express.json())
+app.use(express.urlencoded({extend: true}))
 
 app.use(express.static(path.join(__dirname, "public")));
 

@@ -5,7 +5,7 @@
     <div class="container">
       <h1 class="title size-4">Nova Lista</h1>
 
-      <%- include("Form", {method: "post", url:"/checklists", checklist: checklist}) %>
+      <%- include("Form", {url:"/checklists?_method=post", checklist: checklist}) %>
 
     </div>
 </section>
